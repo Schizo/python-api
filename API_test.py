@@ -15,7 +15,7 @@ s = SyncSketchAPI('YOUR USERNAME','YOUR API KEY')
 # firstAccount = accounts['objects'][0]
 
 # Create your first project
-# newProject = s.addProject(151, 'My First Project', 'Testing the API')
+# newProject = s.addProject(firstAccount.id, 'My First Project', 'Testing the API')
 # print newProject
 
 # Get a list of all projects in your account
